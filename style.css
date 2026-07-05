@@ -118,3 +118,25 @@ footer{
   text-align:center;
   padding:25px;
     }
+.stats{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
+  background:#ffffff;
+  padding:40px 20px;
+}
+
+.stat{
+  width:220px;
+  background:#0d6efd;
+  color:white;
+  text-align:center;
+  padding:25px;
+  border-radius:12px;
+}
+
+.stat h2{
+  font-size:40px;
+  margin-bottom:10px;
+}
